@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        div#container {
+            margin: 0 auto;
+            background-color: rgb(238, 238, 198);
+            padding: 20px 30px;
+            width: 800px;
+        }
+
+        @media screen and (max-width: 500px) {
+            div#container {
+                width: 100%;
+                padding: 20px 30px;
+            } 
+        }
+
+        div.header-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div#name h1,
+        div#name h4 {
+            font-weight: 600;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        @media screen and (max-width: 500px) {
+            h1#my-name {
+                font-size: 25px;
+            }   
+        }
+
+
+        div.header-contents img {
+            height: 100px;
+            width: auto;
+            border-radius: 20px;
+        }
+        h3.title-heading {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header-container">
+                <div class="header-contents" id="name"> 
+                    <h1 id="my-name">Ani Tochukwu Stephen</h1>
+                    <h4>Frontend Developer</h4>
+                </div>
+
+                <div class="header-contents image">
+                    <img src="./images/picture.JPG" alt="profile picture">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <div>
+                    <h3 class="title-heading">Objectives:</h3>
+                    <p>To be the best iq broker in forex.</p>
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Background:</h3>
+                    <ul>
+                        <li>Nursery Education: Cornerstone Nursery and Primary School(2005--2007)</li>
+                        <li>Primary Education: Cornerstone Nursery and Primary School(2007--2013)</li>
+                        <li>Secondary Education: Konigin Des Friedens College Enugu(2013--2017)</li>
+                        <li>Secondary Education: Cornerstone Secondary School(2017--2019)</li>
+                        <li>Tetiary Education: Godfrey Okoye University,Emene,Enugu(2020--2024)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Skill set:</h3>
+                    <ol>
+                        <li>I am a forex trader with the experience of 3 years(2019--Tilldate)</li>
+                        <li>I am a bitcoin(BTC) analyst </li>
+                        <li>I am a frontend Developer</li>
+                        <li>I have the knowledge of graphics designer  </li>
+                        
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Prospective Project:</h3>
+                    <ol>
+                        <li>Creating a platform where iq trade's can share there experience and idea's in trading</li>
+                        <li>Creating a platform whereby an indiviual can type his/her problem and someone that has had a similar problem can be of help</li>
+                        <li>Creating a platform where you can sell your signal's in forex and earn money</li>
+                    </ol>
+                </div>
+            </div>
+        </main> 
+    </div>
+
+</body>
+</html>
